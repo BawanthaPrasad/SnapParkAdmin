@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "441035023870",
+    "firebase_url": "https://parking-system-6626a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "parking-system-6626a",
+    "storage_bucket": "parking-system-6626a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441035023870:android:6ce5e38feb48220fd2ccaf",
+        "android_client_info": {
+          "package_name": "com.example.snapparkadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD0vvlVD0O4JNVmIuRUxQ6vD0TG3qVGY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441035023870:android:e6932960a5f2d6d6d2ccaf",
+        "android_client_info": {
+          "package_name": "com.example.snapparkuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD0vvlVD0O4JNVmIuRUxQ6vD0TG3qVGY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:padding="8dp"
+                android:layout_marginBottom="5dp"
+              android:background="@color/background"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:padding="5dp"
+      android:layout_marginLeft="25dp"
+      android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/VehicleNo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text="" />
+
+
+
+      <TextView
+          android:id="@+id/lat"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text="" />
+
+
+      <TextView
+          android:id="@+id/lon"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text=""
+          />
+
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        tools:text="" />
+  </LinearLayout>
+  <Button
+      android:id="@+id/deleteButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:text="Delete"
+      android:backgroundTint="@color/secondary"
+      android:textColor="@color/white"
+      android:paddingStart="16dp"
+      android:paddingEnd="16dp"/>
+
+
+</LinearLayout>
